@@ -22,7 +22,7 @@ We have trained two models with different sizes: **SFVE-base** and **SFVE-large*
 | SFVE-large  | RoBERTa-large| [SFVE-large on HuggingFace](https://huggingface.co/Huishan/SFVE-large) | 59.4              |
 
 
-## How to Use the Models
+## How to Use
 
 The SFVE models are designed for flexibly evaluating the generated results from MLLMs on VQA datasets. Specifically, the expected usage
 
@@ -61,5 +61,17 @@ for i, score in enumerate(cosine_sim):
     print(f"Similarity between sentence pair {i + 1}: {score.item()}")
 
 ```
+
+
+If you find this work helpful, please cite us:
+
+```bibtex
+@inproceedings{ji2024towards, 
+  title={Towards Flexible Evaluation for Generative Visual Question Answering},
+  author={Ji, Huishan and Si, Qingyi and Lin, Zheng and Wang, Weiping},
+  booktitle={ACM Multimedia 2024}
+}
+```
+
 
 More details coming soon! Welcome any questions to jihuishan@iie.ac.cn.
