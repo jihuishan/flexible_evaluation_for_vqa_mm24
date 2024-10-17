@@ -18,8 +18,8 @@ We have trained two models with different sizes: **SFVE-base** and **SFVE-large*
 
 | Model Name  | Backbone     | HuggingFace URL                                                | Alignment Performance (AVE) |
 |-------------|--------------|----------------------------------------------------------------|-------------------|
-| SFVE-base   | RoBERTa-base | [SFVE-base on HuggingFace](https://huggingface.co/Huishan/SFVE-base)  | 56.3              |
-| SFVE-large  | RoBERTa-large| [SFVE-large on HuggingFace](https://huggingface.co/Huishan/SFVE-large) | 59.4              |
+| SFVE-base   | RoBERTa-base | [SFVE-base on HuggingFace](https://huggingface.co/Huishan/SFVE-base)  | 56.5              |
+| SFVE-large  | RoBERTa-large| [SFVE-large on HuggingFace](https://huggingface.co/Huishan/SFVE-large) | 59.2              |
 
 
 ## How to Use
