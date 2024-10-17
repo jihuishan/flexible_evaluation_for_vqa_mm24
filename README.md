@@ -1,12 +1,22 @@
 # Towards Flexible Evaluation for Generative Visual Question Answering
-This is the official repository for paper "Towards Flexible Evaluation for Generative Visual Question Answering", an oral in ACM Multimedia 2024.
+
+Welcome to the repository for our work on **Flexible Evaluation for Generative Visual Question Answering (VQA)**, an oral in ACM Multimedia 2024. In this project, we aim to tackle the challenges posed by current evaluation metrics used for assessing multimodal large language models (MLLMs) in VQA tasks.
+
+Traditional evaluation methods, such as Exact Match, often fail to account for the rich and varied responses that MLLMs can generate. To address this, we propose a **Semantically Flexible VQA Evaluator (SFVE)**, which evaluates responses based on semantic similarity rather than exact word matches. This approach allows for a more accurate and flexible evaluation of open-ended VQA responses.
+
+## Key Features
+
+- **SFVE Model**: A semantically-based evaluator designed to handle diverse response types, surpassing traditional methods.
+- **AVE Dataset**: The **Assessing VQA Evaluators (AVE)** dataset provides human-annotated responses, enabling comprehensive analysis of different semantic evaluators.
+
+Our goal is to provide a framework that ensures fair and consistent evaluation of generative models on VQA tasks, accommodating the complexity and richness of MLLM-generated responses. This flexible evaluation tool is useful for researchers looking to assess models in open-ended VQA tasks.
 
 
 ## Models Overview
 
 We have trained two models with different sizes: **SFVE-base** and **SFVE-large**. Below are the details of each model along with their performance on our proposed AVE dataset.
 
-| Model Name  | Backbone     | HuggingFace URL                                                | Performance (AVE) |
+| Model Name  | Backbone     | HuggingFace URL                                                | Alignment Performance (AVE) |
 |-------------|--------------|----------------------------------------------------------------|-------------------|
 | SFVE-base   | RoBERTa-base | [SFVE-base on HuggingFace](https://huggingface.co/Huishan/SFVE-base)  | 56.3              |
 | SFVE-large  | RoBERTa-large| [SFVE-large on HuggingFace](https://huggingface.co/Huishan/SFVE-large) | 59.4              |
