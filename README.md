@@ -43,7 +43,7 @@ tokenizer = AutoTokenizer.from_pretrained("Huishan/SFVE-"+MODEL_SIZE)
 # Example data for sentence pairs
 batch_data = {
     'sentence1': ["Question: How many birds are there? Answer: 3", "Question: What is the color of the boy's hair? Answer: yellow"],
-    'sentence2': ["Question: How many birds are there? Answer: three", "Question: What is the color of the boy's hair? Answer: golden"]
+    'sentence2': ["Question: How many birds are there? Answer: There are three birds in the image.", "Question: What is the color of the boy's hair? Answer: golden"]
 }
 
 # Tokenize the sentences
