@@ -36,7 +36,7 @@ import torch
 import torch.nn.functional as F
 
 # Load the model
-MODEL_SIZE = 'base'
+MODEL_SIZE = 'base'  # or large
 model = AutoModel.from_pretrained("Huishan/SFVE-"+MODEL_SIZE).to('cuda')
 tokenizer = AutoTokenizer.from_pretrained("Huishan/SFVE-"+MODEL_SIZE)
 
