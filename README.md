@@ -14,10 +14,12 @@ Our goal is to provide a framework that ensures fair and consistent evaluation o
 
 ## Models Overview
 
-We have trained two models with different sizes: **SFVE-base** and **SFVE-large**. Below are the details of each model along with their performance on our proposed AVE dataset.
+We have trained two models with different sizes: **SFVE-base** and **SFVE-large**. Below are the details of each model along with their performance on our proposed AVE dataset, and results from previous works on general semantic textual similarity task (STS).
 
 | Model Name  | Backbone     | HuggingFace URL                                                | Alignment Performance (AVE) |
 |-------------|--------------|----------------------------------------------------------------|-------------------|
+| SIMCSE-base   | RoBERTa-base | [SIMCSE-base on HuggingFace](https://huggingface.co/princeton-nlp/sup-simcse-roberta-base)  | 44.1              |
+| SIMCSE-large   | RoBERTa-large | [SIMCSE-large on HuggingFace](https://huggingface.co/princeton-nlp/sup-simcse-roberta-large)  | 45.5              |
 | SFVE-base   | RoBERTa-base | [SFVE-base on HuggingFace](https://huggingface.co/Huishan/SFVE-base)  | 56.5              |
 | SFVE-large  | RoBERTa-large| [SFVE-large on HuggingFace](https://huggingface.co/Huishan/SFVE-large) | 59.2              |
 
