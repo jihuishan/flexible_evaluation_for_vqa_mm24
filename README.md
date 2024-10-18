@@ -26,7 +26,7 @@ We have trained two models with different sizes: **SFVE-base** and **SFVE-large*
 
 ## How to Use
 
-The SFVE models are designed for flexibly evaluating the generated results from MLLMs on VQA datasets. Specifically, the expected usage involves extracting sentence embeddings from both the question and the model's generated answer. By computing the cosine similarity between these embeddings, users can quantitatively assess the semantic relevance of the generated answers to the input questions. This method allows for a flexible and scalable approach to evaluate model outputs across various VQA tasks, providing an efficient metric to gauge model performance on semantic understanding and alignment.
+The SFVE models are designed for flexibly evaluating **the generated responses from MLLMs** on VQA datasets. Specifically, the expected usage involves extracting sentence embeddings from both the question and the model's generated answer. By computing the cosine similarity between these embeddings, users can quantitatively assess the semantic relevance of the generated answers to the input questions. This method allows for a flexible and scalable approach to evaluate model outputs across various VQA tasks, providing an efficient metric to gauge model performance on semantic understanding and alignment.
 
 In practice, users can input pairs of questions and generated answers into the SFVE model, extract the corresponding embeddings, and calculate their similarity to determine how closely the model's answer aligns with the question's intent. This makes the SFVE models particularly suitable for automated evaluations in scenarios where human evaluation may be costly or time-consuming.
 
