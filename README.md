@@ -47,10 +47,8 @@ batch_data = {
 }
 
 # Tokenize the sentences
-input_ids1 = tokenizer([text for text in batch_data['sentence1']], truncation=True,
-                            padding='longest', max_length=128, return_tensors='pt', add_special_tokens=True).to('cuda')
-input_ids2 = tokenizer([text for text in batch_data['sentence2']], truncation=True,
-                            padding='longest', max_length=128, return_tensors='pt', add_special_tokens=True).to('cuda')
+input_ids1 = tokenizer(batch_data['sentence1'], truncation=True, padding='longest', max_length=128, return_tensors='pt').to('cuda')
+input_ids2 = tokenizer(batch_data['sentence2'], truncation=True, padding='longest', max_length=128, return_tensors='pt').to('cuda')
 
 # Get sentence embeddings
 with torch.no_grad():
