@@ -7,7 +7,7 @@ Traditional evaluation methods, such as Exact Match, often fail to account for t
 ## Key Features
 
 - **SFVE Model**: A semantically-based evaluator designed to handle diverse response types, surpassing traditional methods.
-- **AVE Dataset**: The **Assessing VQA Evaluators (AVE)** dataset provides human-annotated responses, enabling comprehensive analysis of different semantic evaluators. Available at [AVE-Assessing_VQA_Evaluators-v1](https://huggingface.co/datasets/Huishan/AVE-Assessing_VQA_Evaluators-v1)
+- **AVE Dataset**: The **Assessing VQA Evaluators (AVE)** dataset provides human-annotated responses, enabling comprehensive analysis of different semantic evaluators. Available at [AVE-Assessing_VQA_Evaluators-v1](https://huggingface.co/datasets/Huishan/AVE-Assessing_VQA_Evaluators-v1).
 
 Our goal is to provide a framework that ensures fair and consistent evaluation of generative models on VQA tasks, accommodating the complexity and richness of MLLM-generated responses. This flexible evaluation tool is useful for researchers looking to assess models in open-ended VQA tasks.
 
