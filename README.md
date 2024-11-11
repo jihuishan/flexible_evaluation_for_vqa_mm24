@@ -65,14 +65,20 @@ for i, score in enumerate(cosine_sim):
 ```
 
 
+## Citation
+
 If you find this work helpful, please cite us:
 
 ```bibtex
-@inproceedings{ji2024towards, 
+
+@inproceedings{ji2024towards,
   title={Towards Flexible Evaluation for Generative Visual Question Answering},
   author={Ji, Huishan and Si, Qingyi and Lin, Zheng and Wang, Weiping},
-  booktitle={ACM Multimedia 2024}
+  booktitle={Proceedings of the 32nd ACM International Conference on Multimedia},
+  pages={38--47},
+  year={2024}
 }
+
 ```
 
 
