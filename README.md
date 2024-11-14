@@ -2,6 +2,8 @@
 
 Welcome to the repository for our work on **Flexible Evaluation for Generative Visual Question Answering (VQA)**, an oral in ACM Multimedia 2024. In this project, we aim to tackle the challenges posed by current evaluation metrics used for assessing multimodal large language models (MLLMs) in VQA tasks.
 
+[Our Paper](https://dl.acm.org/doi/pdf/10.1145/3664647.3681400)
+
 Traditional evaluation methods, such as Exact Match, often fail to account for the rich and varied responses that MLLMs can generate. To address this, we propose a **Semantically Flexible VQA Evaluator (SFVE)**, which evaluates responses based on semantic similarity rather than exact word matches. This approach allows for a more accurate and flexible evaluation of open-ended VQA responses.
 
 ## Key Features
