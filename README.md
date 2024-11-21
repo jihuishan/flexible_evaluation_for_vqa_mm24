@@ -18,7 +18,7 @@ Our goal is to provide a framework that ensures fair and consistent evaluation o
 
 We have trained two models with different sizes: **SFVE-base** and **SFVE-large**. Below are the details of each model along with their performance on our proposed AVE dataset, and results from previous works on general semantic textual similarity task (STS).
 
-(Note that as we have slightly modified the pretraining tasks, the results here are a little bit higher than that in the paper.)
+(Note that as we have adjusted the pretraining tasks for better performance, the results here are a little bit higher than that in the paper.)
 
 | Model Name  | Backbone     | HuggingFace URL                                                | Alignment Performance (AVE) |
 |-------------|--------------|----------------------------------------------------------------|-------------------|
